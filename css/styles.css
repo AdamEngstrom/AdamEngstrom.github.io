@@ -8,7 +8,7 @@ html {
 h1, h2 {
 	text-align: center;
 	color: hsla(22, 89%, 48%, 1);
-	font-family: 'Nosifer', cursive;
+	font-family: Arial, cursive;
 }
 
 q:before,q:after{content:'';}
@@ -41,7 +41,7 @@ td {
 }
 
 span {
-	font-family: 'Creepster', cursive;
+	font-family: Arial, cursive;
 	color: hsla(31, 100%, 52%, 1);
 	letter-spacing: 1px;
 }
