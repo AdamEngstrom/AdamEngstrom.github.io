@@ -7,7 +7,6 @@ html {
 
 h1, h2 {
 	text-align: center;
-	color: hsla(22, 89%, 48%, 1);
 	font-family: Arial, cursive;
 }
 
@@ -15,10 +14,12 @@ q:before,q:after{content:'';}
 
 h1 {
 	font-size: 3em;
+	color: hsla(22, 89%, 48%, 1);
 }
 
 h2 {
 	font-size: 2em;
+	color: hsla(31, 100%, 52%, 1);
 }
 
 a:link, a:visited,
@@ -46,7 +47,7 @@ span {
 	letter-spacing: 1px;
 }
 
-img {max-width:150px;}
+img {max-width:175px;}
 
 .content {
 	padding: 25px;
@@ -63,7 +64,7 @@ img {max-width:150px;}
 	font-weight: bold;
 }
 
-.moon {
+.pic {
 	display: inline;
 	float: right;
 }
@@ -79,7 +80,7 @@ img {max-width:150px;}
 		padding: 0;
 	}
 	
-	.moon {float: none; display: block;}
+	.pic {float: none; display: block;}
 	
 	.table {float: none;}
 }
